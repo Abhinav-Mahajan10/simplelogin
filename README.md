@@ -13,7 +13,9 @@ A state-of-the-art Android Log-in App, with flutter and firebase with capabiliti
 
 ## Method-2
 
-If you want to clone and use this app, then clone the repo and follow the following steps:
+If you want to clone and use this app, then clone the repo by:
+`git clone https://github.com/Abhinav-Mahajan10/simplelogin`
+Then run the following steps.
 
 ### Preliminaries:
 
