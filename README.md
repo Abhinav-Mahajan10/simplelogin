@@ -19,12 +19,13 @@ Then run the following steps.
 
 ### Preliminaries:
 
-- Flutter (refer flutter docs: https://docs.flutter.dev/get-started/codelab), is installed, `flutter doctor` gives no errors, Android Studio is installed, VSCode has all the dart plugins and extentions.
-- Ensure your gradle version is upto date, flutter is running on the master channel, and flutter is fully upgraded, Android SDK is upto date.
+- Flutter should be installed (refer flutter docs: https://docs.flutter.dev/get-started/codelab) to get started with the installation and set up.
+- `flutter doctor` should give no errors
+- Android Studio should be installed.
+- VSCode has all the dart plugins and extentions.
+- Ensure your gradle version is upto date, flutter is running on the master channel, and flutter is fully upgraded and Android SDK is upto date.
 
-### Step 1: Generate the SHA-1
-
-Use the following command to generate **SHA-1**:
+### Step 1: Generate the SHA-1 key:
 
 - First we have to generate the keystore file i.e., debug.keystore
   `keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -storepass android -keypass android -keyalg RSA -keysize 2048 -validity 10000`
