@@ -25,6 +25,9 @@ Then run the following steps.
 - VSCode has all the dart plugins and extentions.
 - Ensure your gradle version is upto date, flutter is running on the master channel, and flutter is fully upgraded and Android SDK is upto date.
 
+### My development environment
+- Dart 3.3, Flutter 3.18, Java JDK 21.0.1, Android Studio 2023 version
+
 ### Step 1: Generate the SHA-1 key:
 
 - First we have to generate the keystore file i.e., debug.keystore
